@@ -201,7 +201,7 @@ function GameCard({ game, navigate }) {
           )}
 
           <span className="available-badge">Доступна</span>
-          {game.bundle && <span className="urker-bundle-badge">🎁 <span className="lang-kk">Жинақ</span><span className="lang-ru">Набор</span></span>}
+          {game.bundle && <span className="urker-bundle-badge">🎁 <span className="lang-kk">Жинақ /</span><span className="lang-ru">Набор</span></span>}
         </div>
 
         <div className="card-body">
@@ -711,7 +711,7 @@ function UrkerSingleProduct({ navigate, booklet = false }) {
             <h1>{name}</h1>
             {booklet ? <>
               <p className="description">«Үркермен елтану» — Қазақстанды қызықты комикс форматында таныстыратын танымдық кітапша. Кітапшада еліміздің 17 облысы мен республикалық маңызы бар 3 қаласы қамтылған. Әр өңірдің ерекшеліктерімен, тарихымен және мәдениетімен қызықты иллюстрациялар арқылы танысуға мүмкіндік береді. Балалардың туған жерге деген қызығушылығын арттырып, дүниетанымын кеңейтеді.</p>
-              <p className="urker-language-note">🇰🇿 Тек қазақ тілінде</p>
+              <p className="urker-language-note">Қазақ тілінде</p>
             </> : <>
               <p className="description bilingual-copy">
                 <span>URKER GO! — балаларға арналған танымдық үстел ойыны. Ойын арқылы балалар Қазақстанның тарихы мен мәдениеті туралы білімдерін кеңейтіп, ойлау қабілеті мен таным көкжиегін дамытады.</span>
@@ -842,7 +842,7 @@ function UrkerGo({ navigate }) {
                 </div>
 
                 <div className="urker-plus-includes">
-                  <strong>🎁 <span className="lang-kk">Жинақ</span><span className="lang-ru">Набор</span></strong>
+                  <strong>🎁 <span className="lang-kk">Жинақ / </span><span className="lang-ru">Набор</span></strong>
                   <p className="lang-kk">«URKER GO! PLUS» ойын жиынтығына қосымша «Үркермен елтану» танымдық кітапшасы бірге жүреді.</p>
                   <p className="lang-ru">В комплект URKER GO! PLUS дополнительно входит познавательная книжка «Үркермен елтану».</p>
                 </div>
