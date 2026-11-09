@@ -1083,9 +1083,9 @@ function UrkerGo({ navigate }) {
             </span>
             </h2>
             <a
-                href="https://wa.me/77785608275?text=Здравствуйте!%20Хочу%20заказать%20Urker%20Go"
+                href="https://wa.me/+77758431822?text=Здравствуйте!%20Хочу%20заказать%20Urker%20Go"
                 target="_blank"
-                rel="nor9eferrer"
+                rel="noreferrer"
             >
               <span className="lang-kk">Бізбен байланысыңыз →</span>
               <span className="lang-ru">Связаться с нами →</span>
@@ -1349,7 +1349,7 @@ function SafeInternet({ navigate }) {
               <span className="lang-ru">Подготовьте ребёнка к цифровому миру</span>
             </h2>
             <a
-                href="https://wa.me/77785608275?text=Здравствуйте!%20Хочу%20заказать%20игру%20Қауіпсіз%20ғаламтор"
+                href="https://wa.me/+77758431822?text=Здравствуйте!%20Хочу%20заказать%20игру%20Қауіпсіз%20ғаламтор"
                 target="_blank"
                 rel="noreferrer"
             >
